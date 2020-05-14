@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Basic CSS and Bootstrap</title>
     <script src="https://kit.fontawesome.com/060e8bc0c6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -40,68 +40,51 @@
 </nav>
 
 <div class="container mb-2 mt-3 pb-auto bg-light rounded">
-    <h2>Harry's Programming Blog</h2>
-    <p class="lead"><strong>Welcome to my blog! I'm an amateur coder who's currently learning the basics of Java and
-        HTML. I decided to post what I've learned on this blog so others can see. I've been attending the America's
-        Promise Java Boot Camp, which you can find out more about
-        <a href="bootcamp.html">here</a>.</strong></p>
-</div>
-<div class="container">
     <div class="row">
         <div class="col">
-            <div class="card bg-dark text-light">
-                <h5 class="card-header">5/14/2020</h5>
-                <div class="card-body">
-                    <h5 class="card-title">CSS and Bootstrap</h5>
-                    <p class="card-text">This week we started talking about CSS and Bootstrap. CSS is another important
-                        component of web development, which is changing how your web page...</p>
-                    <a href="basicCSS.html" class="btn btn-primary">Read more</a>
-                </div>
+            <div class="card">
+                <h2 class="card-header">Basics of CSS and Bootstrap</h2>
+                <h6 class="card-footer my-0">5/14/2020</h6>
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="card bg-dark text-light">
-                <h5 class="card-header">5/11/2020</h5>
-                <div class="card-body">
-                    <h5 class="card-title">HTML Basics</h5>
-                    <p class="card-text">Last week we finished up our introduction to Object-Oriented Programming. This week
-                        we started learning the basics of HTML. Here's what I've learned so far...</p>
-                    <a href="basicHTML.html" class="btn btn-primary">Read more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="card bg-dark text-light">
-                <h5 class="card-header">5/7/2020</h5>
-                <div class="card-body">
-                    <h5 class="card-title">Object-Oriented Programming</h5>
-                    <p class="card-text">This week we moved into the meat of Java, which is object-oriented programming.
-                        Object-oriented programming is one of the main strengths of Java. It allows you to divide your
-                        code into...</p>
-                    <a href="basicOOP.html" class="btn btn-primary">Read more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="card bg-dark text-light">
-                <h5 class="card-header">4/30/2020</h5>
-                <div class="card-body">
-                    <h5 class="card-title">Java Basics</h5>
-                    <p class="card-text">Over the past week I've been learning more about the basics of Java
-                        programming. Java is an object-oriented programming language, and it's one of the most widely
-                        used programming...</p>
-                    <a href="basicJava.html" class="btn btn-primary">Read more</a>
-                </div>
-            </div>
+            <p class="lead"><strong>After some HTML we started talking about CSS and Bootstrap. CSS is another important
+            component of web development, which is changing how your web page looks so it is unique and visually
+            interesting. Without CSS, all our web pages would look very bland. On top of that, CSS is important for
+            organizing and presenting information so users can read it easily.</strong></p>
+            <br/>
+            <p class="lead"><strong>In our boot camp, we only had 8 week to learn how to build a complete website, so we
+            didn't have much time to learn much about HTML and CSS. However, Bootstrap is a great tool for creating
+            good-looking and mobile-friendly websites without having to know a lot about CSS or HTML.</strong></p>
+            <br/>
+            <h4>What is CSS?</h4>
+            <ul class="p-main">
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS files</li>
+                <li>CSS files can be written with the same editors your HTML editors</li>
+            </ul>
+            <br/>
+            <h4>CSS Syntax</h4>
+            <p class="p-main">A CSS rule-set consists of a selector and a declaration block: </p>
+            <br/>
+            <img src="img/css-example.gif" alt="css example pic"/>
+            <br/>
+            <ul class="p-main">
+                <li>The selector points to the HTML element you want to style.</li>
+                <li>The declaration block contains one or more declarations separated by semicolons</li>
+                <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are
+                    surrounded by curly braces.</li>
+            </ul>
+            <h4>What is Bootstrap?</h4>
+            <p class="p-main">Bootstrap is a free and open-source framework for CSS designed for responsive mobile-first
+            web development. Bootstrap has a collection of design templates that users can utilize in order to make
+            their web pages look presentable without having to learn a lot of CSS or HTML. Bootstrap lets you use tools
+            like cards, navigation bars, and more to make your websites look better with less effort. On top of that,
+            websites made with Bootstrap are more mobile-friendly.</p>
         </div>
     </div>
 </div>
+
 <div class="container-fluid bg-dark text-white">
     <div class="row">
         <div class="col">
@@ -113,6 +96,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

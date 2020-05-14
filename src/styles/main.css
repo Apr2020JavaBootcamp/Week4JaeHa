@@ -15,11 +15,22 @@ body {
     background-size: cover !important;
 }
 
-footer {
-    font-size: 0.5rem;
-    position: fixed !important;
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
 }
 
 .resource-list li {
     line-height: 2 !important;
+}
+
+.p-main {
+    font-size: large;
+    line-height: 2;
+}
+
+.card {
+    border-color: white;
 }

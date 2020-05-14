@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Java Introduction</title>
+    <script src="https://kit.fontawesome.com/060e8bc0c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css"/>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="home.html"><i class="fas fa-laptop-code fa-2x"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="basicCSS.html">5/14/2020</a>
+                    <a class="dropdown-item" href="basicHTML.html">5/7/2020</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="posts.html">All Posts</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="author.html" tabindex="-1" aria-disabled="true">About the Author</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mb-2 mt-3 pb-auto bg-light rounded">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <h2 class="card-header">Introduction to Java Programming</h2>
+                <h6 class="card-footer my-0">4/30/2020</h6>
+            </div>
+            <p class="lead"><strong>Over the past week I've been learning more about the basics of Java programming.
+            Java is an object-oriented programming language, and it's one of the most widely used programming languages
+            in the world. Here's what I've learned so far.</strong></p>
+            <h4>What is Java?</h4>
+            <p class="p-main">Java is a general-purpose programming language. Much of the syntax is derrived from C &
+                C++ but Java has fewer low-level dependencies than those other languages. For example, in C++ it's not
+                uncommon for the programmer to have to manage memory usage. Java handles this automatically.
+                Java is an object-oriented programming language. Java programs are compiled to bytecode which can run
+                on any Java virtual machine, JVM. Java aims to allow the programmer to write once, run anywhere. In
+                theory you should be able to run the same Java program on a linux machine as a Windows machine. This
+                is mostly true but some implementation details hamper this goal. Java was developed in the early 1990's
+                at Sun Microsystems by James Gosling. Sun has since been acquired by Oracle Corporation so they now
+                maintain Java. Java is one of the most popular programming languages in use today.</p>
+            <br/>
+            <h4>Variables</h4>
+            <ul class="p-main">
+                Variables allows Java to store information that can be changed later, which allows Java programs to be
+                interactive and adaptable. Variables are usually given meaningful names so programmers can understand
+                their function at a glance. They are also written in a style called lowerCamelCase, which helps with
+                readability. There are eight primitive data types in Java that can be made into variables, among other
+                data types we haven't gotten into yet.
+                <li><strong>byte: </strong>Very short integers from -128 to 127. 1 byte of memory.</li>
+                <li><strong>short: </strong>Short integers from -32,768 to 32,767. 2 bytes of memory.</li>
+                <li><strong>int: </strong>Integers from -2,147,483,648 to 2,147,483,647. 4 bytes of memory.</li>
+                <li><strong>long: </strong>Long integers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+                8 bytes of memory.</li>
+                <li><strong>float: </strong>Single precision floating-point numbers from 3.4e−038 to 3.4e+038. 4 bytes
+                of memory.</li>
+                <li><strong>char: </strong>A single Unicode character that's stored in two bytes. 2 bytes of memory.</li>
+                <li><strong>boolean: </strong>A true or false value. 1 byte of memory.</li>
+                <li><strong>double: </strong>Double precision floating point numbers from -1.7E308 to 1.7E308. 8 bytes
+                of memory.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-dark text-white">
+    <div class="row">
+        <div class="col">
+            Week 4 Challenge by Jaeha Song
+        </div>
+        <div class="col">
+            <a href="https://www.reddit.com/r/vectorwallpapers/comments/bhx7su/doodle_background/">Background image
+                by /u/SaltAssault</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
