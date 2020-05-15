@@ -21,38 +21,6 @@
             <li class="nav-item active">
                 <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Posts
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About the Author</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="home.html"><i class="fas fa-laptop-code fa-2x"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Posts
@@ -70,6 +38,70 @@
         </ul>
     </div>
 </nav>
+
+<div class="container mb-2 mt-3 pb-auto bg-light rounded">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <h2 class="card-header">Basics of Object-Oriented Programming</h2>
+                <h6 class="card-footer my-0">5/7/2020</h6>
+            </div>
+            <p class="lead"><strong>This week we moved into the meat of Java, which is object-oriented programming.
+            Object-oriented programming is one of the main strengths of Java. It allows you to divide your code into
+            different modules, called objects,each with their own designated function. You can then utilize these
+            objects to do specific things. </strong></p>
+            <h4>What is OOP?</h4>
+            <ul class="p-main">
+                <li><strong>Classes and Objects: </strong>Originally programs were functional, or top-down. All programs
+                    had a single entry point and worked their way down, line by line, to a single exit point. They could
+                    jump around with various routines and go-to statements but all code was basically one large file.
+                    And it got cumbersome.</li>
+                <li><strong>Division of labor: </strong>Somehow the idea emerged that you could have a programmer
+                    develop code in units or blocks or what is now known as "classes". And these classes could be
+                    developed simultaneously and put together in a larger program. And re-used in other programs. And
+                    also tested independently. Once tested, they wouldn't have to be tested again.</li>
+                <li><strong>What goes into a class? </strong>Each class should have one purpose. Maybe you need a
+                    Calendar class to display calendars and perform date arithmetic. Or an Invoice class to
+                    display/print an invoice and perform all the calculations. Or an Encryption class which can take
+                    some text or a file and return an encrypted version of each. Each class can be used to create
+                    objects. These will contain the data and any processing methods to fulfill the purpose of the
+                    class.</li>
+                <li><strong>Differences between classes and objects: </strong>The class is the code that will be
+                    executed, the type of data to be saved and the way it interacts with other things. The object is a
+                    particular instance of the class.</li>
+                <li><strong>Encapsulation: </strong>Encapsulation is the idea that your class is a black box. When we
+                    say something is a black box, that means what goes inside the object doesn't matter to the user.
+                    You just need to interact with the class through its interface. </li>
+                <li><strong>Interfaces: </strong>The interface is those methods which are publicly available for use by
+                    other programmers.</li>
+                <li><strong>Extending a class: </strong>A more generalized class like "Animal" can be extended to a more
+                    specialized class like "Cow", "Bird", and "Fish". All the features of Animal are the same among
+                    different species. But cows, birds, and fish have their own specialized methods. One can give milk,
+                    the other can fly, and the last can swim. Finally, keep in mind that all cows are animals but not
+                    all animals are cow.</li>
+            </ul>
+            <br/>
+            <h4>OOP Syntax</h4>
+            <ul class="p-main">
+                <li><strong>class: </strong>A collection of related fields (instance and class variables) and methods
+                    that have one purpose.</li>
+                <li><strong>constructor: </strong>A constructor is a method with the same name as the class. When an
+                    object is created, the constructor for that class is called. If no constructor is defined, a default
+                    constructor is called. It's common to have multiple constructors taking different numbers of
+                    parameters. Before a constructor is executed, the constructor for the parent class is called
+                    implicitly if there is no parent constructor called explicitly on the first line.</li>
+                <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are
+                    surrounded by curly braces.</li>
+            </ul>
+            <h4>What is Bootstrap?</h4>
+            <p class="p-main">Bootstrap is a free and open-source framework for CSS designed for responsive mobile-first
+            web development. Bootstrap has a collection of design templates that users can utilize in order to make
+            their web pages look presentable without having to learn a lot of CSS or HTML. Bootstrap lets you use tools
+            like cards, navigation bars, and more to make your websites look better with less effort. On top of that,
+            websites made with Bootstrap are more mobile-friendly.</p>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid bg-dark text-white">
     <div class="row">
